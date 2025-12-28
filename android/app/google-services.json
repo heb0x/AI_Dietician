@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80744881330",
+    "project_id": "ai-dietician-88f72",
+    "storage_bucket": "ai-dietician-88f72.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80744881330:android:8f3d599e0b4fa4619d7dab",
+        "android_client_info": {
+          "package_name": "com.example.ai_dietician"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL7SDHSGpxZG4bVTcT1EzFdvgB5MzMnmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
