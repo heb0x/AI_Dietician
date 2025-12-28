@@ -1,16 +1,50 @@
-# ai_dietician
+AI-Powered Nutrition & Fitness Tracker
+A comprehensive Flutter application designed to help users manage their health through smart calorie tracking and AI-driven meal planning. The app integrates with Firebase for data management and uses the Spoonacular API to generate personalized meal suggestions.
 
-A new Flutter project.
+ Key Features
+AI Meal Generator: Personalized daily meal plans using Spoonacular AI based on user-specific calorie targets.
 
-## Getting Started
+Smart Dashboard: Real-time tracking of Calories, Macros (Protein, Carbs, Fats), and daily streaks.
 
-This project is a starting point for a Flutter application.
+Progress Analytics: Interactive weight tracking charts with target weight estimation and 10-day averages.
 
-A few resources to get you started if this is your first Flutter project:
+Personalized Profile: Dynamic calorie goal calculation based on user activity level, age, weight, and height.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Cloud Integration: Secure authentication and real-time data sync using Google Firebase.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tech Stack
+Frontend: Flutter (Dart)
+
+Backend: Firebase Auth, Firestore, and Storage.
+
+APIs: Spoonacular API (for AI meal generation).
+
+Charts: fl_chart for data visualization.
+
+State Management: StatefulWidgets with optimized UI logic
+)
+
+Installation & Setup
+Clone the repository:
+
+Bash
+
+git clone git clone https://github.com/heb0x/AI_Dietician.git
+Install dependencies:
+
+Bash
+
+flutter pub get
+Firebase Setup:
+
+Create a Firebase project.
+
+Add your google-services.json
+API Key:
+
+Get a free API key from Spoonacular.
+
+Add it to your API service file.
+
+ Responsive Design
+The app is fully responsive, optimized for various screen sizes using MediaQuery, Wrap, and FittedBox widgets to ensure a seamless experience on both Android and iOS devices.
